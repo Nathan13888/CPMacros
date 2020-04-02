@@ -1,11 +1,12 @@
 {
     "name": "cpmacros",
     "author": "Nathan13888",
+    "publisher": "Nathan13888",
     "displayName": "CP Macros",
     "description": "C++ Macros for Competitive Programming",
     "version": "0.1.1",
     "engines": {
-        "vscode": "^0.10.1"
+        "vscode": "^1.43.0"
     },
     "keywords": [
         "snippets",
