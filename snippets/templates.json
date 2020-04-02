@@ -1,0 +1,134 @@
+{
+	"C++ Template": {
+		"prefix": [
+			// "cppT",
+			"cpp",
+			"c++",
+			"temp"
+		],
+		"body": [
+			"#include \"bits/stdc++.h\"",
+			"using namespace std;",
+			"",
+			"$1",
+			"",
+			"int main()",
+			"{",
+			"\tios_base::sync_with_stdio(false);",
+			"\tcin.tie(0);",
+			"\t",
+			"\t$0",
+			"\t",
+			"\treturn 0;",
+			"}"
+		],
+		"description": "Fast IO C++"
+	},
+	"#DEFINEs and typedefs": {
+		"prefix": "def",
+		"body": [
+			"typedef long long ll;",
+			"typedef unsigned long long ull;",
+			"typedef vector<int> vi;",
+			"typedef pair<int,int> pi;"
+		]
+	},
+	"Consts": {
+		"prefix": [
+			"const",
+			"cons"
+		],
+		"body": "const long ${1|M,T,C,N|} = ${2:1000000007};$0"
+	},
+	"Cout - Macro": {
+		"prefix": [
+			// "cout",
+			"cou",
+			"log"
+		],
+		"body": "cout << \"$1\"$0"
+	},
+	"Backslash-N End Line": {
+		"prefix": [
+			"\\n",
+			"<<n",
+			"n",
+			// "endl"
+		],
+		"body": "<< \"\\n\"$0"
+	},
+	"getLine()": {
+		"prefix": [
+			"getL",
+			// "getLine"
+		],
+		"body": "getline(cin, $1);$0"
+	},
+	"cin.ignore()": {
+		"prefix": [
+			"ignore"
+		],
+		"body": "cin.ignore();$0"
+	},
+	// "greater<Type>()": {
+	// 	"prefix": "greater",
+	// 	"body": "greater<${1}>()$0"
+	// },
+	"sort()": {
+		"prefix": [
+			"sort",
+			"sor"
+		],
+		"body": "sort($1,$2);$0"
+	},
+	"check": {
+		"prefix": [
+			"checkF",
+			"checkD",
+			"checkC",
+			"check"
+		],
+		"body": "if (abs(${1:a}-${2:b}) < 1e-9) {$0}"
+	},
+	"puts": {
+		"prefix": [
+			"put",
+			"puts"
+		],
+		"body": "puts($1);$0"
+	},
+	"vector": {
+		"prefix": [
+			"vect",
+			"vec"
+		],
+		"body": "vector<${1:type}> ${2:name} ${3:()};$0"
+	},
+	"repeat": {
+		"prefix": [
+			"rep",
+			"loop"
+		],
+		"body": "while(${1:N}--)\n{\n\t$0\n}"
+	},
+	"freopen - file input": {
+		"prefix": [
+			"file",
+			"input",
+			"freopen",
+			"open"
+		],
+		"body": "freopen(\"input.txt\", \"r\", stdin);\nfreopen(\"output.txt\", \"w\", stdout);"
+	},
+	"cin to value": {
+		"prefix": "cin",
+		"body": "${1:int} ${2:N};\ncin >> ${2:N}$3;"
+	},
+	"forN": {
+		"prefix": [
+			"forn",
+			"forN"
+		],
+		"body": "for(auto ${2:i} = 0; ${2:i} < ${1:N}; ${2:i}++)\n{\n\t$0\n}"
+	}
+}

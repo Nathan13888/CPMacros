@@ -1,0 +1,37 @@
+{
+    "name": "cpmacros",
+    "author": "Nathan13888",
+    "displayName": "CP Macros",
+    "description": "C++ Macros for Competitive Programming",
+    "version": "0.1.1",
+    "engines": {
+        "vscode": "^0.10.1"
+    },
+    "keywords": [
+        "snippets",
+        "competitive",
+        "programming",
+        "c++"
+    ],
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "cpp",
+                "path": "./snippets/templates.json"
+            }
+        ]
+    },
+    "galleryBanner": {
+        "color": "#E6E0EA",
+        "theme": "light"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/one-harsh/vscode-cpp-snippets"
+    },
+    "icon": "images/cpp.png",
+    "license": "Check in License in the root folder"
+}
