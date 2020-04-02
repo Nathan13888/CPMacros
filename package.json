@@ -21,6 +21,22 @@
             {
                 "language": "cpp",
                 "path": "./snippets/templates.json"
+            },
+            {
+                "language": "cpp",
+                "path": "./snippets/definitions.json"
+            },
+            {
+                "language": "cpp",
+                "path": "./snippets/fastauto.json"
+            },
+            {
+                "language": "cpp",
+                "path": "./snippets/io.json"
+            },
+            {
+                "language": "cpp",
+                "path": "./snippets/snips.json"
             }
         ]
     },
@@ -30,8 +46,8 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/one-harsh/vscode-cpp-snippets"
+        "url": "https://github.com/Nathan13888/CPMacros"
     },
-    "icon": "images/cpp.png",
-    "license": "Check in License in the root folder"
+    "icon": "images/icon.png",
+    "license": "AGPL-3.0"
 }
