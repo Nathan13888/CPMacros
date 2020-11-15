@@ -1,9 +1,9 @@
 {
 	"C++ Template": {
 		"prefix": [
-			// "cppT",
 			"cpp",
 			"c++",
+			"fastio",
 			"temp"
 		],
 		"body": [
@@ -25,7 +25,10 @@
 		"description": "Fast IO C++"
 	},
 	"#DEFINEs and typedefs": {
-		"prefix": "def",
+		"prefix": [
+			"def",
+			"typedef"
+		],
 		"body": [
 			"typedef long long ll;",
 			"typedef unsigned long long ull;",
